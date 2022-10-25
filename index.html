@@ -13,39 +13,63 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
+  <!-- Imports -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <main class="vh-100 d-flex align-items-center">
+    <!-- Card 1 -->
+    <div class="card m-3 h-50">
+      <div class="card-body d-flex flex-column justify-content-around">
+        <!-- Rating state start -->
+        <img src="images/icon-star.svg" alt="star" width="15%">
 
-  <!-- Rating state start -->
+        <h1 class="card-title"> How did we do?</h1>
 
-  How did we do?
+        <p class="card-text"> Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+        <div class="rating">
+          <button type="button" class="btn btn-outline-primary rounded-circle"> 1 </button>
+          <button type="button" class="btn btn-secondary rounded-circle">2</button>
+          <button type="button" class="btn btn-secondary rounded-circle">3</button>
+          <button type="button" class="btn btn-secondary rounded-circle">4</button>
+          <button type="button" class="btn btn-secondary rounded-circle">5</button> 
+        </div>
 
-  1 2 3 4 5
+        <a href="#" class="btn btn-primary"> Submit </a>
 
-  Submit
+        <!-- Rating state end -->
+      </div>
+    </div>
 
-  <!-- Rating state end -->
+    <!-- Card 2 -->
+    <div class="card d-none">
+      <div class="card-body">
+        <!-- Thank you state start -->
 
-  <!-- Thank you state start -->
+        You selected <!-- Add rating here --> out of 5
 
-  You selected <!-- Add rating here --> out of 5
+        Thank you!
 
-  Thank you!
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
 
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+        <!-- Thank you state end -->
+      </div>
+    </div>
+  </main>
 
-  <!-- Thank you state end -->
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/spikefreeman" target="_blank">Spike Freeman</a>.
+    </div>
+  </footer>
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <!-- Javascript -->
   <script src="node_modules/boostrap/dist/js/boostrap.bundle.js"></script>
 </body>
 </html>
