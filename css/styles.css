@@ -1,8 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 body {
     background-color:hsl(216, 12%, 8%);
     color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
 }
 
-.card {
+/* .card {
     background-color: hsl(213, 19%, 18%);
+} */
+
+.card-text {
+    color: hsl(217, 12%, 63%);
 }
+
+
+
+/* Button Functionality */
+.btn-primary {
+    color: hsl(0, 0%, 100%);
+}
+
+.btn-secondary {
+    color: hsl(216, 12%, 54%);
+}
+
+.btn-primary:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+    border-color: hsl(0, 0%, 100%);
+}
+
+.btn-check+.btn:hover {
+    background-color: hsl(25, 97%, 53%);
+    border-color: hsl(25, 97%, 53%);
+}
+
+.btn-check:checked+.btn {
+    background-color: hsl(217, 12%, 63%);
+    border-color: hsl(217, 12%, 63%);
+}
+
+
+
+
